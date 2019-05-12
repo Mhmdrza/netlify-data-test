@@ -1,0 +1,150 @@
+@media screen and (min-width : 60rem) {
+  header {
+    justify-content: center;
+  }
+  
+  header nav {
+    display: initial;
+    align-self: center;
+    position: initial;
+    height: initial;
+    background-color: transparent;
+  }
+  
+  header .authin-text {
+    padding-left: 5vw;
+  }
+  
+  nav.open,
+  nav.close {
+    opacity: 1;
+    width: auto;
+  }
+  
+  header nav a {
+    display: inline;
+    color: white;
+    margin: 0 1.5rem;
+  }
+  
+  header nav a:last-child {
+    padding-right: 10vw;
+  }
+  
+  header button {
+    display: initial;
+    
+  }
+  
+  header .hamburger-menu-icon {
+    display: none
+  }
+  
+  .under-line--orange{
+    position: relative;
+    left:2rem;
+    max-width: 6rem;
+  }
+  
+  .screen {
+    flex-direction: row;
+  }
+  
+  .slide-1-landing .bg-img {
+    margin-right: -30rem;
+    right: 15rem;
+    width: 70rem;
+  }
+  
+  .slide-1-landing .bg-img2 {
+    display: initial;
+    position: absolute;
+    right: initial;
+    transform: translate(80%);
+    top: -15rem;
+    width: 60rem;
+  }
+  
+  .slide-1{
+    background: none;
+    --background-image: linear-gradient(275deg, #0058cb, #2276f2);
+  }
+  
+  .slide-1 .bg-img {
+    width: 35rem;
+    padding: 4rem;
+    z-index: 2;
+  }
+  
+  .slide-1 .bg-img2 {
+    display: initial;
+    position: absolute;
+    transform: rotate(-1deg);
+    right: -20vw;
+    top: -47rem;
+    width: 115vw;
+    height:160vh;
+    
+  }
+  
+  .slide-2 {
+    flex-direction: row-reverse;
+  }
+
+  .slide-2 .bg-img2 {
+    display: initial;
+  }
+  
+  .slide-21 {
+    flex-direction: row;
+  }
+  
+  .footer-slide .bg-img2 {
+    top: 2rem;
+    left: initial;
+    transform: translate(-70%);
+  }
+  
+  .footer-slide .bg-img {
+    /* left: 6rem;
+    top: 3rem; */
+  }
+  
+  .footer hr {
+    display: block;
+    width: 60%;
+    opacity: .5;
+  }
+  
+  .footer .copyright {
+    padding: 0;
+    border: none;
+    padding-right: 12%;
+    text-align: right;
+  }
+  
+  .footer-slide .bg-img {
+    position: relative;
+    left:7rem;
+  }
+
+  .contactus-slide p{
+    padding: 1rem .5rem;
+  }
+
+  .contactus-slide i{
+    font-size: 2rem;
+    margin: .5rem ;
+  }
+
+  .contact-us{
+    position: absolute;
+    transform: translate(60%);
+    max-width: 22rem;
+    background-color: #fff;
+    border-radius: 1.5rem;
+  }
+}
+
+/******************************************************************end od media query **/
+/**********************************************************************************************/

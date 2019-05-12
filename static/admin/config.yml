@@ -1,0 +1,25 @@
+backend:
+  name: git-gateway
+  branch: master
+
+media_folder: static/img
+public_folder: /img
+
+collections:
+  - name: "a"
+    label: "aa"
+    folder: "src/pages/a"
+    create: true
+    fields:
+      - label: "Title"
+        name: "title"
+        widget: "string"
+        pattern: [".{20,}", "Must have at least 20 characters"]
+      - { label: "Layout", name: "layout", widget: "hidden", default: "blog" }
+      - {
+          label: "Featured Image",
+          name: "thumbnail",
+          widget: "image",
+          required: false,
+        }
+      - { label: "Body", name: "body", widget: "markdown" }
