@@ -4,22 +4,43 @@ backend:
 
 media_folder: static/img
 public_folder: /img
+logo_url: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMzEiIGhlaWdodD0iMzUiIHZpZXdCb3g9IjAgMCAzMSAzNSI+PGRlZnM+PHBhdGggaWQ9Im52NGVhIiBkPSJNMTcwLjEzIDk4Ljc1YTM0LjY5IDM0LjY5IDAgMCAxLTEuNS0yLjY3di0uMDFhMTkuNDIgMTkuNDIgMCAwIDAgMi45MS0yLjU5bC4wNC0uMDRhMTkuNSAxOS41IDAgMCAwIDEuOTUtMi41MmguMDFjMSAuNzYgMi4wNSAxLjQ1IDMuMTQgMi4wNmguMDFWOTNhMjMuMyAyMy4zIDAgMCAxLTUuOTIgNi4xN2wtLjAxLjAxLS4wNC4wMy0uMi4xNGgtLjAxbC0uMzYtLjU2em04Ljg1Ljg2di4wMWEyOC44OCAyOC44OCAwIDAgMS00Ljg1IDQuMzRoLS4wMWEzNS4xIDM1LjEgMCAwIDEtMi40LTIuODl2LS4wMWEyNi4zIDI2LjMgMCAwIDAgMy41OC0zLjAyIDMxLjggMzEuOCAwIDAgMCAzLjY3IDEuNTd6bTMuMi00LjMyaC0uMDFsLS4wMi4wNHYuMDFhMjguNyAyOC43IDAgMCAxLTEuODYgMi43di4wMWgtLjAxYy0xLjI0LS40LTIuNDYtLjktMy42My0xLjQ4aC0uMDFhMjUuNCAyNS40IDAgMCAwIDEuODktMi41NmwuMDQtLjA2aC4wMWMxLjEzLjUxIDIuMy45NiAzLjUgMS4zMWguMDJsLjA1LjAyem0xMC4wMy0xOS43djMuNzVsLS4wMS4wNEgxNjQuOXYtLjAzaC0uMDVWNzUuNkgxOTEuODV6bS0yMy42IDUuODh2LjAxYTExLjMyIDExLjMyIDAgMCAxLTIuODcgNi41NHYuMDJsLS4wMS0uMDItLjE1LS43MWEzNC44MSAzNC44MSAwIDAgMS0uNjctNS44M3ptMTAuMzQgNy4wN2EyMi42MyAyMi42MyAwIDAgMS0xLjM0IDIuOXYuMDJoLS4wMWEyMy44IDIzLjggMCAwIDEtMy4xNS0yLjEgMTkuMTcgMTkuMTcgMCAwIDAgMS4yOC0zLjA2di0uMDJsLjAyLjAxYTIxLjY3IDIxLjY3IDAgMCAwIDMuMiAyLjI0em0tOS42OC0xLjk1di0uMDJhMTMuMyAxMy4zIDAgMCAwIDEuNDYtNS4wOWgzLjc4YTE3LjU3IDE3LjU3IDAgMCAxLS41IDMuMTggMTYuOTYgMTYuOTYgMCAwIDEtNS40NyA4Ljc4Yy0uMjcuMjMtLjU1LjQ2LS44My42N2gtLjAxYTM0Ljk0IDM0Ljk0IDAgMCAxLTEuMzYtMy43NCAxMy40IDEzLjQgMCAwIDAgMi44NC0zLjYybC4wMS0uMDIuMDItLjAzLjA1LS4xem0xMS4xMy01LjEydi4wMWEyMy4yIDIzLjIgMCAwIDEtLjg3IDUuMzJoLS4wMWExOS44MyAxOS44MyAwIDAgMS0zLjI3LTIuNDR2LS4wMWMuMi0uOTQuMzItMS45LjM3LTIuODd6bTQuNTUgNy43di4wMmEyOC4yNyAyOC4yNyAwIDAgMS0xLjg4IDQuNSAyNC43NSAyNC43NSAwIDAgMS0zLjU4LTEuMjh2LS4wMmEyMy40NiAyMy40NiAwIDAgMCAxLjkzLTQuNiAyNi4wNCAyNi4wNCAwIDAgMCAxLTUuMWwuMDktMS4ydi0uMDJoMy43N3YuMDFhMjkuMTIgMjkuMTIgMCAwIDEtMS4yOSA3LjU1di4wMmwtLjAxLjA0LS4wMy4wOHptNy4yMS03Ljd2LjAxYTM1IDM1IDAgMCAxLTIuNzkgMTIuNjIgMzMuNCAzMy40IDAgMCAxLTEuMDMgMi4xOWwtLjAzLjA1YTM0Ljc0IDM0Ljc0IDAgMCAxLTEuNzUgM3YuMDJjLS4wMiAwLS4wMi4wMi0uMDMuMDMtLjM4LjU3LS43NyAxLjE0LTEuMTcgMS42OGwtLjA2LjA3di4wMmMtLjc0Ljk3LTEuNTIgMS45Mi0yLjM0IDIuOGwtLjAyLjAyLS4wMi4wMmEzNS4wOSAzNS4wOSAwIDAgMS00LjM4IDMuOTljLTEuMDItLjc4LTItMS42Mi0yLjkyLTIuNWgtLjAxdi0uMDFhMzEuNDUgMzEuNDUgMCAwIDAgNi44Mi02Ljc5bC4wMS0uMDJhMzEuMjIgMzEuMjIgMCAwIDAgNC03LjM3bC4wNS0uMTRhMzAuOTkgMzAuOTkgMCAwIDAgMS45LTkuNjh6Ii8+PC9kZWZzPjxnPjxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0xNjMgLTc0KSI+PHVzZSBmaWxsPSIjZmZmZmZmIiB4bGluazpocmVmPSIjbnY0ZWEiLz48L2c+PC9nPjwvc3ZnPg=="
 
 collections:
-  - name: "a"
-    label: "aa"
-    folder: "src/pages/a"
+  - name: "product"
+    label: "product"
+    folder: "src/content/products"
     create: true
     fields:
-      - label: "Title"
-        name: "title"
-        widget: "string"
-        pattern: [".{20,}", "Must have at least 20 characters"]
-      - { label: "Layout", name: "layout", widget: "hidden", default: "blog" }
-      - {
-          label: "Featured Image",
-          name: "thumbnail",
-          widget: "image",
-          required: false,
-        }
-      - { label: "Body", name: "body", widget: "markdown" }
+      - label: "slide1 intro image"
+        name: "slide1_image"
+        widget: "image"
+      - name: "slide2"
+        widget: object
+        fields:
+          - name: "headers"
+            widget: object
+            fields:
+              - name: "header1"
+                widget: string
+              - name: "subHeader1"
+                widget: string
+          - name: "paragraph"
+            widget: string
+      - name: slide3
+        widget: object
+        fields:
+          - name: header
+            widget: string
+          - name: cards
+            widget: list
+            fields:
+              - name: cardHeading
+                widget: string
+              - name: cardText
+                widget: string
+              - name: icon
+                widget: string
+                description: font awesome icon (e.g. fa-spin)
+              - name: url
+                widget: string
