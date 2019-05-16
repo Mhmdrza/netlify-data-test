@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
-//import Hammer from 'hammer.min.js';
-import Hammer from 'hammerjs';
+import Hammer from 'hammer.min.js';
+// import Hammer from 'hammerjs';
 import AuthinLogo from '../images/authinLogo.svg'
 
 
