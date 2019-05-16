@@ -1,5 +1,5 @@
 import React from 'react'
-import UnderLine from 'images/headers-underneath.png'
+import UnderLine from '../images/headers-underneath.png'
 
 
 const HG = ({ h1, h2 }) => (

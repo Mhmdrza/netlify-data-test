@@ -1,12 +1,13 @@
 import React from 'react'
-import Layout from 'components/layout'
-import Slide1 from 'components/slide-1'
-import Slide3 from 'components/slide-3'
+import Layout from '../../components/layout'
+import Slide1 from '../../components/slide-1'
+import Slide3 from '../../components/slide-3'
 import { graphql, Link } from 'gatsby'
 import Helmet from 'react-helmet'
 
 const lang = 'fa';
 let text={}
+
 export const ProductTemplate = ({
   
 }) => (
