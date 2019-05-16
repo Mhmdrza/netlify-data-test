@@ -46,7 +46,7 @@ const ProductPage = ({ data }) => {
 export default ProductPage
 
 export const pageQuery = graphql`
-  query BlogPostByID($id: String!) {
+  query BlogPostByID($id: String) {
     markdownRemark(id: { eq: $id }) {
       id
       html

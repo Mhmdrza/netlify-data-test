@@ -23,10 +23,6 @@ exports.createPages = ({ actions, graphql }) => {
             fields {
               slug
             }
-            frontmatter {
-              tags
-              templateKey
-            }
           }
         }
       }
@@ -43,9 +39,9 @@ exports.createPages = ({ actions, graphql }) => {
       const id = edge.node.id
       createPage({
         path: edge.node.fields.slug,
-        tags: edge.node.frontmatter.tags,
+        tags: [],
         component: path.resolve(
-          `src/templates/${String(edge.node.frontmatter.templateKey)}.js`
+          `src/pages/products/product-template.js`
         ),
         // additional data can be passed via context
         context: {
