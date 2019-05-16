@@ -13,9 +13,9 @@ export const ProductTemplate = ({
 }) => (
   <Layout>
     <div className="header-fake-bg"/>
-    <Slide1 data={text[lang].slide1} inverted/>
+    {/* <Slide1 data={text[lang].slide1} inverted/>
     <Slide3 data={text[lang].slide2}/>
-    <Slide3 data={text[lang].slide3} whiteBackground/>
+    <Slide3 data={text[lang].slide3} whiteBackground/> */}
   </Layout>
 )
 
